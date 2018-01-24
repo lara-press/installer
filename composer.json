@@ -22,6 +22,6 @@
         "symfony/process": "~3.0|~4.0"
     },
     "bin": [
-        "laravel"
+        "larapress"
     ]
 }
