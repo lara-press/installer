@@ -1,7 +1,7 @@
 {
-    "name": "laravel/installer",
-    "description": "Laravel application installer.",
-    "keywords": ["laravel"],
+    "name": "lara-press/installer",
+    "description": "LaraPress application installer.",
+    "keywords": ["laravel", "larapress", "wordpress"],
     "license": "MIT",
     "authors": [
         {
@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Laravel\\Installer\\Console\\": "src/"
+            "LaraPress\\Installer\\Console\\": "src/"
         }
     },
     "require": {
