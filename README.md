@@ -1,6 +1,6 @@
 # LaraPress Installer
 
-1. Add this repository to global composer.json.
+1. Add this repository to the global composer.json. (Since this is a fork, it's not on packagist).
 
 ```
 "repositories": [
