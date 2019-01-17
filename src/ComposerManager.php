@@ -24,6 +24,10 @@ class ComposerManager
 
     public function mergeOption($key, $option)
     {
+        if (!isset($this->composer[$key])) {
+            $this->composer[$key] = [];
+        }
+
         $newOption = array_merge($this->composer[$key], $option);
         ksort($newOption);
         $this->composer[$key] = $newOption;
