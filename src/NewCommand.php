@@ -248,7 +248,7 @@ class NewCommand extends Command
                 ],
             ],
             'require' => [
-                'lara-press/framework'            => '~5.6',
+                'lara-press/framework'            => '~5.7',
                 'johnpbloch/wordpress'            => '~4.8',
                 'funkjedi/composer-include-files' => '^1.0',
             ],
