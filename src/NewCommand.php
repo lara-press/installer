@@ -248,8 +248,8 @@ class NewCommand extends Command
                 ],
             ],
             'require' => [
-                'lara-press/framework'            => '~5.7',
-                'johnpbloch/wordpress'            => '~4.8',
+                'lara-press/framework'            => '~7.0',
+                'johnpbloch/wordpress'            => '~5.4',
                 'funkjedi/composer-include-files' => '^1.0',
             ],
         ])->publish();
@@ -273,7 +273,7 @@ class NewCommand extends Command
             'DB_DATABASE' => $database,
             'DB_USERNAME' => $username,
             'DB_PASSWORD' => $password,
-            'MAIL_DRIVER' => 'log',
+            'MAIL_MAILER' => 'log',
         ])->publish();
     }
 }
